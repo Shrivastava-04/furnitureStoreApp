@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "name":"Oakwood Dining Table",
+        "title":"A beautifully crafted dining table made from solid oak, perfect for family meals and gatherings.",
+        "price":29999,
+        "category":"Dining Table",
+        "image":"https://img.freepik.com/free-photo/view-table-arrangement-by-wedding-planner_23-2150167202.jpg?t=st=1719585361~exp=1719588961~hmac=96047ac274528547e2fe42969a70e66878a6985c4333b71c2daf92634c061d3f&w=360",
+        "where":"Home"
+    },
+    {
+        "id":2,
+        "name":"Luxora Leather Sofa",
+        "title":"A luxurious leather sofa that combines comfort and elegance, ideal for any living room.",
+        "price":49999,
+        "category":"Sofa",
+        "image":"https://img.freepik.com/premium-photo/classic-luxurious-white-velor-chester-sofa-crimson-interior-interior-design-photo-studio_127517-1050.jpg?w=360",
+        "where":"Home"
+    },
+    {
+        "id":3,
+        "name":"Classic Windsor Chair",
+        "title":"A timeless Windsor chair with a classic design, perfect for dining or as an accent piece.",
+        "price":11499,
+        "category":"Chair",
+        "image":"https://img.freepik.com/free-photo/still-life-minimalist-lifestyle_23-2149743872.jpg?t=st=1719585861~exp=1719589461~hmac=8e10503bd3d6091d55042e461a4ac7f39fe71b01531af2d4eef7c74b7e4448d0&w=360",
+        "where":"Home"
+    },
+    {
+        "id":4,
+        "name":"Verona Coffee Table",
+        "title":"A chic and functional coffee table with a glass top and wooden base, ideal for any living room.",
+        "price":13999,
+        "category":"Table",
+        "image":"https://img.freepik.com/free-photo/room-decor-with-potted-plants-candles-wooden-table_23-2149427996.jpg?t=st=1719585360~exp=1719588960~hmac=1e8eaa733eaaee1adc8d27ffc288bbb2623770fc33b1c785783c96ec4f187012&w=360",
+        "where":"Home"
+    },
+    {
+        "id":5,
+        "name":"Serenity Queen Bed",
+        "title":"A modern queen-sized bed with a sleek design, offering both style and comfort for a good night's sleep.",
+        "price":69999,
+        "category":"Bed",
+        "image":"https://img.freepik.com/free-photo/interior-design-beautiful-castle_23-2151010449.jpg?t=st=1719586139~exp=1719589739~hmac=8a0edd568957a7ce3d253f1ea82c910c0bac8378a32fcc62df637fde64c6ef20&w=360",
+        "where":"Home"
+    },
+    {
+        "id":6,
+        "name":"Elite Recliner",
+        "title":"A comfortable and stylish recliner chair with multiple reclining positions, perfect for relaxation.",
+        "price":27499,
+        "category":"Chair",
+        "image":"https://img.freepik.com/free-photo/armchair-with-armrest-front_1203-294.jpg?t=st=1719586238~exp=1719589838~hmac=6572fdb53839f37ebf1a90781f85088b10afffbd00b893227fe22aeb824b844b&w=360",
+        "where":"Home"
+    },
+    {
+        "id":7,
+        "name":"Bookshelf",
+        "title":"A spacious and sturdy bookshelf made from high-quality wood, perfect for storing and displaying books and decor.",
+        "price":3999,
+        "category":"Storage",
+        "image":"https://img.freepik.com/free-photo/ornate-book-shelf-art-nouveau-style_23-2150975647.jpg?ga=GA1.1.106520496.1719578901&semt=ais_user",
+        "where":"list"
+    },
+    {
+        "id":8,
+        "name":"Avalon Dresser",
+        "title":"A beautifully designed dresser with six spacious drawers, providing ample storage for your bedroom.",
+        "price":31999,
+        "category":"Dresser",
+        "image":"https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791102.jpg?t=st=1719586666~exp=1719590266~hmac=58cfed96162ca404e438445c624ea3fcd265d784003952c9a31430a1ad7e05ce&w=1060",
+        "where":"list"
+    },
+    {
+        "id":9,
+        "name":"Rustic Farmhouse Dining Set",
+        "title":"A complete dining set featuring a rustic farmhouse table and six matching chairs, perfect for large families.",
+        "price":42999,
+        "category":"Dining Table",
+        "image":"https://img.freepik.com/free-photo/wicker-gray-table-with-glass-gray-chairs_140725-3025.jpg?t=st=1719586770~exp=1719590370~hmac=62776e6f504190080ec1cc23b7b7488745e30aa963e7451f194c3be95faa0415&w=740",
+        "where":"list"
+    }
+]
