@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"; 
-
-import list from '../../public/list.json'
+import axios from 'axios';
 import Cards from './Cards';
 function Furniture() {
-    const filterdata = list.filter((data)=>data.where === "Home")
+  const [furniture,setFurniture] = useState([])
+    useEffect(()=>{
+        const getFurniture =async()=>{
+            try {
+                const res = await axios.get("http://localhost:4001/furniture");
+                console.log(res.data);
+                const data= res.data.filter((data)=>data.where === "Home");
+                setFurniture(data);
+            } catch (error) {
+                console.log(error);
+            }
+        }
+        getFurniture();
+    },[])  
     var settings = {
         dots: true,
         infinite: false,
@@ -49,7 +61,7 @@ function Furniture() {
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
     <Slider {...settings}>
         {
-            filterdata.map((item)=>(
+            furniture.map((item)=>(
                 <Cards item={item} key={item.id}/>
             ))
         }

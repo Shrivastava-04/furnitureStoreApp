@@ -26,7 +26,7 @@ function Banner() {
   <input type="text" className="grow dark:text-black" placeholder="Email" />
 </label>
             </div>
-            <button className="btn btn-primary mt-3 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-800 dark:hover:text-white border-none">Primary</button>
+            <button className="btn btn-primary mt-3 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-800 dark:hover:text-white border-none">Get Started</button>
         </div>
         <div className='w-full md:w-1/2 order-1 md:order-2 mt-2 md:mt-9 md:ml-2 py-2 md:py-9 md:px-2'>
             <img src={banner} alt="" />

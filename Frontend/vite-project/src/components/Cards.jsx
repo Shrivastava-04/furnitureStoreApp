@@ -19,9 +19,9 @@ function Cards({item}) {
     <div className="card-actions justify-between">
       <div>
       <div className="badge badge-outline p-3">₹{item.price}</div>
-      <div className="badge badge-outline hover:bg-blue-500 hover:text-white ml-1 p-3">Buy Now</div>
+      <div className="badge badge-outline hover:bg-blue-500 hover:text-white ml-1 p-3 cursor-pointer">Buy Now</div>
       </div>
-      <div className="badge badge-outline hover:bg-blue-500 hover:text-white p-3">{item.category}</div>
+      <div className="badge badge-outline hover:bg-blue-500 hover:text-white p-3 cursor-pointer">{item.category}</div>
     </div>
   </div>
 </div>
