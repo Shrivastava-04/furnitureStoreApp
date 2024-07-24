@@ -1,37 +1,38 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import furnitureroute from "./route/furniture.route.js"
-import userRoute from "./route/user.route.js"
-import cors from "cors"
+import furnitureroute from "./route/furniture.route.js";
+import userRoute from "./route/user.route.js";
+import cors from "cors";
+import path from "path";
 
-const app = express()
+const app = express();
 
 app.use(cors());
 app.use(express.json());
 
 dotenv.config();
 
-
-const PORT = process.env.PORT || 4000 
-const URI = process.env.MongoDBURI
+const PORT = process.env.PORT || 4000;
+const URI = process.env.MongoDBURI;
 
 try {
-    mongoose.connect(URI,{
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    });
-    console.log("Connected to MongoDB");
+  mongoose.connect(URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
+  console.log("Connected to MongoDB");
 } catch (error) {
-    console.log("Error: ",error);
+  console.log("Error: ", error);
 }
 
 //defining routes
 
-app.use("/furniture",furnitureroute);
-app.use("/user",userRoute);
+app.use("/furniture", furnitureroute);
+app.use("/user", userRoute);
 
+//deployment
 
 app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`)
-})
+  console.log(`Server is listening on port ${PORT}`);
+});
